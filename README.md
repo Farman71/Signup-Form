@@ -9,13 +9,12 @@ A simple and responsive signup page built using HTML and CSS. This page allows u
 - **User Roles:** Selection between Student and Employee.
 - **Terms and Conditions Agreement:** Checkbox to ensure users agree to terms.
 
-## Preview
-
-![Signup Page Screenshot](./path/to/your/image.png)
-
-## Technologies Used
+  ## Technologies Used
 
 - **HTML5**: For the structure of the page.
 - **CSS3**: For styling the page.
+
+
+## Preview
 
   ![image](https://github.com/user-attachments/assets/1f6ca1bb-0b79-4ee9-9f3e-9afd5f24d3c5)
