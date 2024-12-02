@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: left;
+}
+
+.main {
+  margin: 0% 22%;
+  width: 1181px;
+  height: 712px;
+  top: 154px;
+  left: 198px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flexbox;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 61px;
+  margin-top: 125px;
+  letter-spacing: 5px;
+  width: 600px;
+  height: 44px;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77.45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+::placeholder {
+  color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  color: #ffffff;
+  margin: 25px 0px 0px 0px;
+  display: flex;
+  width: 800px;
+  max-width: 100%;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+  font-size: 16px;
+  padding: 0px 5px 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus {
+  outline: none;
+  border-bottom: 1px solid #007bff;
+  background-color: transparent;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="date"]:hover {
+  outline: none;
+  border-bottom: 1px solid #007bff;
+  background-color: transparent;
+}
+
+.radio-group,
+.checkbox-group {
+  /* margin-bottom: 5px; */
+  width: 244px;
+  height: 29px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+} 
+
+.radio-group label,
+.checkbox-group label {
+  display: inline;
+  font-size: 12px;
+}
+button {
+  background-color: #ffffff;
+  margin: 5px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 29.05px;
+  text-align: center;
+  width: 150px;
+  height: 38px;
+
+}
+button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
